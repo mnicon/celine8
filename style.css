@@ -1,0 +1,511 @@
+
+.body{
+	margin:0;
+	padding: 0;
+}
+.wow_animation{
+	width: 98%;
+	height: 50vh;
+	margin: 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding: 0;
+	
+
+}
+.animation{
+	width: 98%;
+	height: 50vh;
+	margin: 0;
+	
+	padding: 0;
+
+}
+
+
+.first {
+     margin: 0;
+
+	text-align: center;
+	font-size: 100px;
+	font-family: sans-serif;
+	color: red; 
+
+}
+
+ .first   {
+
+
+ 	/*text-align: center;*/
+
+
+            -moz-animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+
+                 -moz-animation-delay: 1s;
+                -webkit-animation-delay:1s;
+                animation-iteration-count: infinite;
+
+            -moz-animation-name:;
+            -webkit-animation-name: ;
+         }
+
+ .second{
+ 	margin: 0;
+ 	text-align: center;
+	font-size: 60px;
+	font-family: sans-serif;
+	color: green;
+
+ }
+
+   .second  {
+            -moz-animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+
+             -moz-animation-delay: 1s;
+              -webkit-animation-delay:1s;
+              animation-iteration-count: infinite;
+
+            -moz-animation-name:;
+            -webkit-animation-name:  ;
+         }
+.three{
+margin: 0;
+text-align: center;
+	font-size: 50px;
+	font-family: sans-serif;
+	color:#6600cc ;
+
+	 -moz-animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+
+             -moz-animation-delay: 1s;
+              -webkit-animation-delay:1s;
+              animation-iteration-count: infinite;
+
+            -moz-animation-name:;
+            -webkit-animation-name:  ;
+
+
+}
+.four{
+	margin: 0;
+	text-align: center;
+	font-size: 40px;
+	font-family: sans-serif;
+	color:#000066 ;
+
+	 -moz-animation-duration: 0s;
+            -webkit-animation-duration: 0s;
+
+             -moz-animation-delay: 0s;
+              -webkit-animation-delay:0s;
+              animation-iteration-count: infinite;
+
+            -moz-animation-name:;
+            -webkit-animation-name:  ;
+
+}
+
+
+
+/*start filter section*/
+.container-fluid{
+	width: 100%;
+	height: 50vh;
+	margin: 0;
+
+}
+
+.filter{
+	width: 100%;
+	height: 50vh;
+	margin: 0;
+	text-align: center;
+	/*position: relative;*/
+    
+	
+}
+
+.button_section{
+	margin: 0;
+	background-color: green;
+	display: center;
+	/*position: relative;*/
+	  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align : center;
+  -moz-box-align    : center;
+  -ms-flex-align    : center;
+  -webkit-align-items : center;
+  align-items : center ;
+  justify-content : center;
+  -webkit-justify-content : center;
+  -webkit-box-pack : center;
+  -moz-box-pack : center;
+  -ms-flex-pack : center;
+   
+	
+}
+
+
+.button_section button{
+	margin: 0;
+	width: 100px;
+	height: 60px;
+	/*position: absolute;*/
+	text-align: center;
+	margin: 6px 5px;
+	background-color: black;
+	color:red;
+	border:2px solid gray;
+	padding: 15px 32px;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+
+
+}
+
+
+.box{
+
+	width: 247.5px;
+	height: 210px;
+	background: gray;
+	display: inline-block;
+	margin: 15px;
+	text-align: center;
+	line-height: 347px;
+	margin: 5px 5px;
+	/*color: green ;*/
+	font-size: 25px ;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	position: relative;
+	
+	
+}
+.portfolio .box img{
+	display: block;
+	height: auto;
+position: absolute;
+width: 100%;
+max-height: 86%;
+}
+
+/*end filter*/
+
+/*start Datepicker section*/
+.datepicker_area{
+   width: 100%;
+	height: 40vh;
+	margin: 0;
+	padding: 0;
+	
+   
+}
+
+
+.date_box{
+     width: 100%;
+	height: 40vh;
+	margin: 0;
+	padding: 20px;
+	
+	text-align: center;
+	 margin-right: auto;
+	   margin-left: auto;
+    
+
+}
+
+
+/*end Datepicker section*/
+
+/* start media quiry 1*/
+
+@media (max-width: 767px) { 
+
+	/*wow animation*/
+
+	.body{
+margin: 0;
+padding: 0;
+	}
+.wow_animation{
+	width: 98%;
+	height: 49vh;
+	margin: 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding: 0;
+	
+
+}
+.animation{
+	width: 98%;
+	height: 49vh;
+	margin: 0;
+	
+	padding: 0;
+
+}
+.first {
+     margin-left: : 0;
+     margin-right: 0;
+     padding: 0;
+
+	text-align: center;
+	font-size: 94px;
+	font-family: sans-serif;
+	color: red; 
+}
+
+ .first   {
+
+
+ 	/*text-align: center;*/
+
+
+            -moz-animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+
+                 -moz-animation-delay: 1s;
+                -webkit-animation-delay:1s;
+                animation-iteration-count: infinite;
+
+            -moz-animation-name:;
+            -webkit-animation-name: ;
+         }
+
+ .second{
+ 	margin: 0;
+ 	text-align: center;
+	font-size: 50px;
+	font-family: sans-serif;
+	color: green;
+
+ }
+
+   .second  {
+            -moz-animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+
+             -moz-animation-delay: 1s;
+              -webkit-animation-delay:1s;
+              animation-iteration-count: infinite;
+
+            -moz-animation-name:;
+            -webkit-animation-name:  ;
+         }
+.three{
+margin: 0;
+text-align: center;
+	font-size: 50px;
+	font-family: sans-serif;
+	color:#6600cc ;
+
+	 -moz-animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+
+             -moz-animation-delay: 1s;
+              -webkit-animation-delay:1s;
+              animation-iteration-count: infinite;
+
+            -moz-animation-name:;
+            -webkit-animation-name:  ;
+
+
+}
+.four{
+	margin: 0;
+	text-align: center;
+	font-size: 33px;
+	font-family: sans-serif;
+	color:#000066 ;
+
+	 -moz-animation-duration: 0s;
+            -webkit-animation-duration: 0s;
+
+             -moz-animation-delay: 0s;
+              -webkit-animation-delay:0s;
+              animation-iteration-count: infinite;
+
+            -moz-animation-name:;
+            -webkit-animation-name:  ;
+            }
+	/*end wow animation*/
+ 
+   /*start filter section*/
+	.container-fluid{
+		width: 100%;
+		height: 50vh;
+		margin: 0px;
+		padding: 0px;
+
+
+	}
+	.filter{
+	width: 100%;
+	height: 50vh;
+	margin: 0;
+	text-align: center;
+    
+	
+}
+
+
+	.box{
+
+	width: 130px;
+	height: 70px;
+	background: green;
+	display: inline-block;
+	margin: 0px;
+	text-align: center;
+	line-height: 45px;
+	margin: 3px 1px;
+	/*color: red ;*/
+	font-size: 15px ;
+	font-family: sans-serif;
+	margin-right: 0;
+	   margin-left: 0;
+	
+	   margin-top: 2px;
+	   text-align: center;
+ 
+	}
+	.portfolio .box img {
+	display: block;
+	height: auto;
+position: absolute;
+width: 100%;
+max-height: 100%;
+}
+
+.portfolio .box img:hover{
+  opacity: 3.5;
+-moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  display: inline block;
+  border: 0;
+  	height: auto;
+  	position: absolute;
+  	-webkit-transition: all 3000ms ease-in;*/
+ transition: all 3000ms ease-in;
+  box-shadow: 0px 0px 150px #000000;
+    z-index: 1;
+}
+
+.button_section button{
+	margin: 0;
+	width: 100px;
+	height: 40px;
+	/*position: absolute;*/
+	text-align: center;
+	margin: 4px 1px;
+	background-color: black;
+	border:3px gray;
+	padding: 5px 15px;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: white;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.button_section button :hover{
+	background-color: red;
+
+}
+
+.button_section{
+	margin: 0;
+	padding: 0;
+	background:#ff4dff ;
+	display: center;
+	/*position: relative;*/
+	  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align : center;
+  -moz-box-align    : center;
+  -ms-flex-align    : center;
+  -webkit-align-items : center;
+  align-items : center ;
+  justify-content : center;
+  -webkit-justify-content : center;
+  -webkit-box-pack : center;
+  -moz-box-pack : center;
+  -ms-flex-pack : center;
+   
+	
+}
+   
+
+/*end filter*/
+
+/*start Datepicker section*/
+.datepicker_area{
+   width: 100%;
+	height: 50vh;
+	margin: 0;
+	padding: 0;
+	
+   
+}
+
+
+.date_box{
+     width: 100%;
+	height: 50vh;
+	margin: 0;
+	padding: 20px;
+	
+	text-align: center;
+	
+	   left:0%;
+   top: 0%;
+   transform: translate(-7%, -0%);
+    display:inline-block;
+  
+    
+
+}
+ .datepicker_section{
+
+	size: "30"
+	margin-right:30;
+
+
+}
+.datepicker-title{
+	background: red;
+}
+/*end date picker*/
+	/*media quiry 2*/
+@media (min-width: min-width: 768) and (max-width: 991){
+
+}
+
+/* media quiry 3*/
+@media (min-width:992) and (max-width: 1199) {
+
+	}
+
+	 /*media quiry 4 or last*/
+@media (min-width: 1200px) {
+
+}
